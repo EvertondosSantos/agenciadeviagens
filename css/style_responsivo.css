@@ -1,0 +1,58 @@
+/* FORMULÁRIOS */
+
+@media (max-width: 767px){
+    .areapcem{
+        width: 92%;
+    }
+    .datas, .lugares{
+        flex-direction: column;
+        /* border: 1px solid red; */
+        gap: 0px
+    }
+    .input_label{
+        flex-direction: column;
+        gap: 0px
+    }
+}
+
+/* OFERTAS E CONTATO */
+
+@media (max-width: 1099px){
+    .galeria_ofertas{
+        gap: 10px;
+        flex-direction: column;
+        height: auto;
+    }
+    .galeria_ofertas .bloco_imagens{
+        flex-direction: column;
+    }
+    .galeria_ofertas figure, .galeria_ofertas .bloco_dois figure{
+        height: 225px;
+    }
+    .galeria_ofertas img{
+        object-position: 50% 35%;
+    }
+
+    .bloco_imagens_anuncios{
+        flex-direction: column;
+    }
+    .bloco_imagens_anuncios figure{
+        width: 100%;
+    }
+
+    footer>div{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    footer>div>div{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 225px;
+    }
+    footer h3{
+        margin: 10px 0px 5px 0px;
+    }
+
+}
